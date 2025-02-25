@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Starter by Swam",
+  title: "Multiple Page Sign Up Form",
   description:
-    "NextJs starter template with tailwind, shadcn, zustand, react-hook-form and zod.",
+    "An example of building multipage forms.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased p-5`}
       >
         <ReactQueryProvider>{children}</ReactQueryProvider>
       </body>
